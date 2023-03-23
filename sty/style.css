@@ -1,0 +1,104 @@
+
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+header{
+    background-color: #74C7EE;
+}
+
+header img{
+    padding: 10px; 
+}
+
+body{
+    background-color: #B4E1F6;
+}
+
+footer{
+    background-color: #74C7EE;
+
+
+}
+
+.contenedor{
+    display: flex;
+    justify-content: space-evenly;
+    position: relative;
+    top: -55px;
+}
+
+header p{
+    color: #F5EA43;
+    font-size: 20px;
+    margin-left: 10px;
+    font-weight: bold;
+}
+
+ul {
+    list-style-type: none;
+    margin-left: 800px;
+    padding: 0;
+    overflow: hidden;
+    background-color: #F5EA43;
+  }
+
+  .lindex {
+    float: left;
+  }
+
+  .uele{
+    display: inline;
+    
+  }
+
+  body li a {
+    display: block;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+
+  li a:hover{
+    background-color: antiquewhite;
+    color: black;
+    }
+
+.divlogo{
+    display: flex;
+    justify-content: left;
+}
+
+
+.oca{
+    margin-right: 10px;
+}
+
+.bbva{
+    margin-right: 10px;
+}
+
+.brou{
+    margin-right: 10px;
+}
+
+.scotia{
+    margin-right: 10px;
+}
+
+.master{
+    margin-right: 10px;
+}
+
+.itau{
+    margin-right: 10px;
+}
+
+
+.sorteos{
+    display: flex;
+    margin-bottom: 30px;
+}
